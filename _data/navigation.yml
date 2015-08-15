@@ -1,0 +1,26 @@
+- title: "Home"
+  href: "/"
+
+- title: "Blog"
+  href: "/blog/"
+  subcategories:
+    - subtitle: "All categories"
+      subhref: "/blog/categories.html"
+    - subtitle: "Ubuntu"
+      subhref: "/blog/ubuntu"
+
+- title: "Research"
+  href: "/research/"
+  subcategories:
+    - subtitle: "epsilon Aurigae"
+      subhref: "/research/epsilon_aurigae.html"
+
+- title: "Software"
+  subcategories:
+    - subtitle: "SIMTOI"
+      subhref: "/software/simtoi.html"
+    - subtitle: "LIBOI"
+      subhref: "/software/liboi.html"
+
+- title: "Contact"
+  href: "/contact.html"
