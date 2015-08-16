@@ -372,3 +372,19 @@ My website is now mobile friendly and I fixed several small things that were
 bothering me about is layout and navigation menu.
 Whether or not these changes will be enough to keep me blogging on a more
 routine basis remains to be seen...
+
+## Fixed navigation menu
+
+To make the navigation menu remain fixed at the top of the page we simply
+need to consult the
+[Bootstrap 3 documentation](http://getbootstrap.com/components/#navbar-fixed-top).
+This is pretty easy, simply modify the `_includes/themes/bootstrap/default.html`
+template file by adding `navbar-fixed-top` to the `nav` element tag and
+specify that there needs to be a little extra space on the top of the body
+in the `css/main.css` file:
+
+<pre>
+body {
+    padding-top: 50px;
+}
+</pre>

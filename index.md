@@ -1,45 +1,39 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Astrophysicist & Software Developer
+tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<!--- Enable markdown parsing inside of a div using markdown="1" --->
+<img class="img-responsive img-thumbnail"
+    style="float: right; width: 55%; margin: 5px;"
+    src="/images/brian-at-chara.jpg"
+    alt="A photograph of Brian Kloppenborg at CHARA" />
+**Hi I am Brian Kloppenborg. I am an astrophysicist with a knack for everything
+technological.**
 
-## Update Author Attributes
+Right now I develop massively parallel software, write grant applications,
+perform technical marketing, and a myriad of administrative duties in my
+Research Scientist position at [ArrayFire](http://arrayfire.com).
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+I conduct astrophysical research as part of my adjunct
+professor position in [Georgia State University's](http://gsu.edu)
+[Department of Physics and Astronomy](http://phy-astr.gsu.edu/).
+Most of my research focuses on resolved observations of stellar surfaces,
+eclipsing binaries, and novae using optical interferometry.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+While not working I like to explore the outdoors, experiment with new technology,
+come up with innovative solutions to otherwise benign problems, and play old
+video games.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+-----
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## Recent posts
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5%}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
-
-

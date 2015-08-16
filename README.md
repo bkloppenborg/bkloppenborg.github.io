@@ -1,37 +1,46 @@
-# Jekyll-Bootstrap-3
+Static site content for Kloppenborg.net
+=====
 
-Easily publish Bootstrap 3 powered Jekyll sites.  
-Fork of the well known jekyll-bootstrap (v0.3.0). Original project is [here](https://github.com/plusjade/jekyll-bootstrap).  
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.  
+This website uses the [Jekyll-Bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3)
+system released under the [MIT](http://opensource.org/licenses/MIT) license.
 
-## Usage
+## A reminder of some common functionality
 
-### 1. Create a Repo
-- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
+### Start the server locally:
 
-### 2. Install Jekyll-Bootstrap-3  
-<pre>
-  <code>
-    $ git clone https://github.com/dbtek/jekyll-bootstrap-3 USERNAME.github.io
-    $ cd USERNAME.github.com
-    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
-    $ git push origin master  
-  </code>
-</pre>  
-### 3. Enjoy !
-- After giving 10 mins to GitHub of course.  
+```
+jekyll serve
+```
 
-For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
+### Create a (blog) post:
 
+```
+rake post title="Hello world"
+```
 
-### Themes
+### Create a page:
+```
+# Make a generic page
+rake page name="about.md"
+# Make a nested page
+rake page name="pages/about.md"
+# Make the pages/about/index.html page
+rake page name="pages/about"
+```
 
-Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyllbootstrap3.tk/preview/).
+### Add an item to the navigation menu:
 
-## License
+Add the page to the navigation group in the YAML frontmatter.
+We have a custom parser located in `_include/navigation` that will parse the
+URL to generate submenus"
 
-[MIT](http://opensource.org/licenses/MIT)
+```
+---
+layout: page
+title: Some page title
+group: navigation
+---
+{% include JB/setup %}
+```
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 

@@ -1,4 +1,10 @@
 
+/* layout  ======================================================== */
+
+body {
+    padding-top: 50px;
+}
+
 /* figures ======================================================== */
 
 figure {
@@ -19,6 +25,15 @@ figcaption {
     background: #f8f8f8;
     padding: 0 10px 10px;
 }
+
+/* figure-caption overlays ========================================= */
+
+.post-content {
+    bottom: 0;
+    text-align: right;
+    position: absolute;
+}
+
 
 /* post date style ================================================= */
 
