@@ -3,7 +3,7 @@ layout: post
 title: "Installing Ubuntu 12.04 on the HP Envy 6"
 description: ""
 tagline: "Test"
-category: 
+category: linux
 tags: [HP Envy 6, HP Envy 6T, Linux, Ubuntu]
 ---
 {% include JB/setup %}

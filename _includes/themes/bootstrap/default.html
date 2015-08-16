@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
+    <link href="/css/main.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
@@ -34,9 +35,11 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+<!--
             {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+-->
+            {% include navigation %}
           </ul>
         </div>
       </div>

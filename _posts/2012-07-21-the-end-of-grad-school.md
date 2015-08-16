@@ -2,7 +2,7 @@
 layout: post
 title: "The end of graduate school"
 description: "Reflection on the last few days of graduate school."
-category:
+category: life
 tags: [graduate school, university of denver]
 ---
 {% include JB/setup %}
@@ -17,25 +17,14 @@ at the [Max Planck Institute for Radio Astronomy](http://www.mpifr-bonn.mpg.de/)
 in Bonn, Germany working with Gerd Weigelt's
 [infrared astronomy research group](http://www3.mpifr-bonn.mpg.de/div/ir-interferometry/index.html).
 
-<div class="row">
-    <div class="col-md-6">
-        <figure style="margin: 10px">
-            <img class="thumbnail" style="margin: 3px;"
-                src="/images/blog/2012-04-27_16-06-18_897.jpg"/>
-            <figcaption>All of my astrophysics books</figcaption>
-        </figure>
-    </div>
-    <div class="col-md-6">
-        <figure style="margin: 10px">
-            <img class="thumbnail" style="margin: 3px;"
-                src="/images/blog/2012-06-17_14-42-09_498.jpg"/>
-            <figcaption>
-                Five years worth of notes from graduate school, all digitized
-                and prepared for recycling.
-            </figcaption>
-        </figure>
-    </div>
-</div>
+<figure>
+    <img style="float: left; width: 50%;" class="img-responsive img-thumbnail"
+        src="/images/blog/2012-04-27_16-06-18_897.jpg"/>
+    <img style="float: left; width: 50%;" class="img-responsive img-thumbnail"
+        src="/images/blog/2012-06-17_14-42-09_498.jpg"/>
+    <figcaption>(left) All of my astrophysics text books. (right) Five years worth
+        of notes from graduate school, all digitized and prepped for recycling.</figcaption>
+</figure>
 
 Before I started at DU, I wondered "what does it take to get a Ph.D?"  In my
 first year I spent, on average, 78 hours per week in my office or in the
@@ -60,11 +49,10 @@ astrophysics books are to the left.
 Aside from finishing my dissertation, my last task at DU was to vacate my office.
 It looks quite lonely now; however, I'll soon have another office to call home.
 
-<div class="row">
-    <figure>
-        <img class="thumbnail" src="/images/blog/2012-06-27_16-57-15_430.jpg" />
-        <figcaption>Bye bye chair, I will miss you greatly.</figcaption>
-    </figure>
-</div>
+<figure>
+    <img class="img-responsive img-thumbnail"
+        src="/images/blog/2012-06-27_16-57-15_430.jpg" />
+    <figcaption>Bye bye chair, I will miss you greatly.</figcaption>
+</figure>
 
 

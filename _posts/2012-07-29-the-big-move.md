@@ -2,7 +2,7 @@
 layout: post
 title: "The big move"
 description: "In 2012 July my wife and I moved to Germany. This post explains the adventure we had just getting from the US to our new home."
-category:
+category: life
 tags: [Germany, moving, MPIfR, travel, international travel]
 ---
 {% include JB/setup %}
@@ -76,25 +76,14 @@ Being back on schedule, we caught a Taxi at the Collogne-Bonn airport and were
 rapidly driven to the MPIfR.  Finally, after 16 hours of flights, airports,
 and taxis we were at our new home.
 
-<div class="row">
-    <div class="col-md-6">
-        <figure style="margin: 10px">
-            <img class="thumbnail" style="margin: 3px;"
-                src="/images/blog/2012-07-09_10-38-14_153.jpg">
-            <figcaption>The Collogne-Bonn airport</figcaption>
-        </figure>
-    </div>
-    <div class="col-md-6">
-        <figure style="margin: 10px">
-            <img class="thumbnail" style="margin: 3px;"
-                src="/images/blog/dscn2150.jpg" />
-            <figcaption>
-                The Max Planck Institute for Radio Astronomy, my new research home
-            </figcaption>
-        </figure>
-    </div>
-</div>
-
+<figure>
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+        src="/images/blog/2012-07-09_10-38-14_153.jpg">
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+        src="/images/blog/dscn2150.jpg" />
+    <figcaption>(left) The Collogne-Bonn airport. (right) The Max Planck Institute
+        for Radio Astronomy, my new research home</figcaption>
+</figure>
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Installing Ubuntu 14.10 with a SSD bcache"
 description: "How to install Ubuntu 14.10 with a bcache SSD"
-category:
+category: linux
 tags: [linux, bcache, ubuntu, ubuntu 14.10]
 ---
 {% include JB/setup %}

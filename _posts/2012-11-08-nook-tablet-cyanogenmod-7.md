@@ -3,7 +3,7 @@ layout: post
 title: "Installing Cyanogenmod 7 on the Nook Tablet"
 description: ""
 tagline: "Rid yourself of B&N software"
-category: 
+category: hardware
 tags: [Nook Tablet, Cyanogenmod]
 ---
 {% include JB/setup %}

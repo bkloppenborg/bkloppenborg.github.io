@@ -2,7 +2,7 @@
 layout: post
 title: "5x USB 2.0 ports on the WRTSL54GS"
 description: "Modifying the WRTSL54GS to support 5x USB 2.0 ports"
-category:
+category: hardware
 tags: [WRTSL54GS, OpenWRT, Hardware modding]
 ---
 {% include JB/setup %}
@@ -49,52 +49,63 @@ What distinguished the WRTSL54GS from the 54G-series routers was that it had
 it was discovered that the engineers had built two USB headers on board, but
 only connected one to an external jack:
 
-<img class="img-responsive" src="/images/blog/100_1937_1.jpg"
-    alt="The second set of USB pins can be seen immediately below the installed
-         USB port" />
+<figure>
+    <img class="img-responsive img-thumbnail"
+        src="/images/blog/100_1937_1.jpg"
+        alt="Second set of USB pins are below the existing USB port" />
+    <figcaption>The second set of USB pins can be seen immediately below the
+        installed USB port"</figcaption>
+</figure>
 
 I had already purchased a WRTSL54GS when I read about this find so I cracked
 open my router to find out that there was plenty of room inside the case to
 install a small USB hub:
 
-<img class="img-responsive" src="/images/blog/100_1924.jpg"
-    alt="There is plenty of room for a USB hub at the top of the case" />
+<figure>
+    <img class="img-responsive img-thumbnail"
+        src="/images/blog/100_1924.jpg"
+        alt="There is plenty of room for a USB hub at the top of the case" />
+    <figcaption>There is plenty of room for a USB hub in the top of the case</figcaption>
+</figure>
 
 Fortunately there were some cheap, $12 USB 2.0 hubs for sale at our local Walmart
 that had a fairly low profile, especially once cracked out of their case:
 
-<div class="row">
-    <div class="col-md-6">
-        <img class="img-responsive" alt="A cheap, low profile USB 2.0 hub"
-            src="/images/blog/100_1929.jpg" width="300" />
-    </div>
-    <div class="col-md-6">
-        <img class="img-responsive" alt="Hub outside of its case"
-            src="/images/blog/100_1935.jpg" width="300" />
-    </div>
-</div>
+<figure>
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+       src="/images/blog/100_1929.jpg"
+       alt="A cheap, low profile USB 2.0 hub" />
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+       src="/images/blog/100_1935.jpg"
+       alt="Hub outside of its case" />
+    <figcaption>A cheap low-profile USB hub</figcaption>
+</figure>
 
 After tracing out the ports I went to work on the plastic with my Dremel and
 used some plastic epoxy to affix the USB hub to the case:
 
-<div class="row">
-    <div class="col-md-6">
-        <img class="img-responsive" alt="Three USB port openings cut nicely
-            into the top of the WRTSL54GS case"
-            src="/images/blog/100_1959_1.jpg" width="300" />
-    </div>
-    <div class="col-md-6">
-        <img class="img-responsive" alt="With the application of the epoxy, the
-            hub wasn't going anywhere"
-            src="/images/blog/100_1965.jpg" width="300" />
-    </div>
-</div>
+<figure>
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+        src="/images/blog/100_1959_1.jpg"
+        alt="Three USB port openings cut nicely
+            into the top of the WRTSL54GS case" />
+    <img class="img-responsive img-thumbnail" style="float: left; width: 50%;"
+        src="/images/blog/100_1965.jpg"
+        alt="With the application of the epoxy, the
+            hub wasn't going anywhere" />
+    <figcaption>After cutting three holes into the top of the WRTSL54GS case
+        and applying some epoxy, the hub wasn't going anywhere!</figcaption>
+</figure>
 
 Due to the port configuration of the hub, I now have four external USB 2.0
 ports and one internal port which I used to expand non-volitile flash to 256 MB:
 
-<img class="img-responsive" src="/images/blog/100_1966.jpg"
-    alt="The hub installed with a 256 MB flash drive in the internal slot" />
+<figure>
+    <img class="img-responsive img-thumbnail"
+        src="/images/blog/100_1966.jpg"
+        alt="The hub installed with a 256 MB flash drive in the internal slot" />
+    <figcaption>The hub installed with a 256 MB flash drive in the internal slot</figcaption>
+</figure>
 
 ## Getting the hub working
 
