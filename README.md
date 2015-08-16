@@ -30,17 +30,4 @@ rake page name="pages/about"
 
 ### Add an item to the navigation menu:
 
-Add the page to the navigation group in the YAML frontmatter.
-We have a custom parser located in `_include/navigation` that will parse the
-URL to generate submenus"
-
-```
----
-layout: page
-title: Some page title
-group: navigation
----
-{% include JB/setup %}
-```
-
-
+Modify the `_data/navigation.yml` file, the syntax is pretty obvious.
