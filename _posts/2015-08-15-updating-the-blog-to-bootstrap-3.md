@@ -362,6 +362,10 @@ collapse the unordered tag list into small gray boxes:
 }
 </pre>
 
+**Edit:** I later remembered that I also had to update the
+`_includes/themes/bootstrap/post.html` page to use the `tag-box` class rather
+than `tag_box`.
+
 ## The end result
 
 In the end converting my blog from Jekyll Bootstrap 2 to Jekyll Bootstrap 3
