@@ -10,9 +10,9 @@
     - subtitle: "Linux"
       subhref: "/blog/linux"
     - subtitle: "List by category"
-      subhref: "/blog/categories.html"
+      subhref: "/categories.html"
     - subtitle: "List by tag"
-      subhref: "/blog/tags.html"
+      subhref: "/tags.html"
 
 - title: "Research"
   href: "/research/"
