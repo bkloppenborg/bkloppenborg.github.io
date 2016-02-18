@@ -19,7 +19,7 @@ As you can imagine, I was quite ecstatic when I learned about
 [flashcache](https://github.com/facebook/flashcache)!
 Shortly after bcache was added to the kernel, I tried it out and
 wrote up a short blog post about
-[installing bcache on Ubuntu 14.04]({% post_url 2014-10-26-installing-ubuntu-1410-with-a-ssd-bcache.md %})
+[installing bcache on Ubuntu 14.04]({% post_url 2014-10-26-installing-ubuntu-1410-with-a-ssd-bcache %})
 but honestly the method was horrible.
 It involved first installing Ubuntu to a small partition, booting,
 creating the `bcache` device, copying the installation to the `bcache`
