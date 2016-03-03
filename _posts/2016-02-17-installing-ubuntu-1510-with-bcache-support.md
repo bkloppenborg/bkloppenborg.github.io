@@ -178,6 +178,12 @@ and reboot:
     sudo umount /mnt
     sudo reboot
 
+## Post-install
+
+Restore the default `resolv.conf` configuration
+
+    sudo ln -sf ../run/resolvconf/resolv.conf /etc/resolv.conf
+
 With any luck, your machine will reboot normally and you will have a
 fully functional Ubuntu installation with `bcache` out of the box without
 all the work of previous methods.
