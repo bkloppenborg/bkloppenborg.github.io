@@ -46,10 +46,9 @@ however, this time we need additional kernel parameters.
 3. Navigate down to the line that begins with `linux`. Insert the text
    `intel_idle.max_cstate=0` into the line prior to the triple-hyphens like this:
 
-```
-...
-linux ... ro quiet splash intel_idle.max_cstate=0 ---
-```
+    ```
+    linux ... ro quiet splash intel_idle.max_cstate=0 ---
+    ```
 
 4. Press F10 to boot. Complete the installation, reboot the machine.
    (If you are going to install bcache, you do this before rebooting following the same
@@ -63,18 +62,19 @@ linux ... ro quiet splash intel_idle.max_cstate=0 ---
 7. Now download and install the latest 4.6 variant of the Linux Kernel from
    [the mainline kernel repository](http://kernel.ubuntu.com/~kernel-ppa/mainline).
    At the time of this writing, it is 4.6.2. You can do this using the following commands:
-   
+
+~~~~~
     cd Downloads
     wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb
     wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602_4.6.2-040602.201606100516_all.deb
     wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-image-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb
     sudo dpkg -i linux*.deb
     sudo reboot
-    
+~~~~~
+  
 *Note:* I am recommending the 4.6.x kernels rather than 4.7.x because NVIDIA's drivers packaged
 with CUDA 7.5 (nvidia-352) and 8.0 (nvidia-361) do not build against 4.7.x kernels without
 some tweaking yet.
- 
 8. After you have verified that your machine boots correctly, you can proceed with installing
    the graphics drivers. Don't enable the NVIDIA GPU until you have finished the NIVDIA driver
    installation!
