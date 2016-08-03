@@ -31,3 +31,10 @@ rake page name="pages/about"
 ### Add an item to the navigation menu:
 
 Modify the `_data/navigation.yml` file, the syntax is pretty obvious.
+
+### Responsive images
+
+Simply specify the `{.img-responsive}` attribute following the image.
+For example:
+
+![](/research/press_releases/2010Nature/epsAur_prfig1_mini.jpg){:.img-responsive}
