@@ -171,6 +171,27 @@ If you want to modify one of these settings, for example to disable horizontal s
 
 ### Optimus / bumblebee
 
-I haven't yet tried out enabling optimus / bumblebee on my laptop, but I *think* the
-[same instructions as last time]({% post_url 2016-03-09-optimusbumblebee-on-the-gigabyte-p34w-v5 %})
-are still applicable.
+*Update: on 2016 October 29*
+
+As it turns out, the Gigabyte P34w v5 (and the P35 variant) both use a BIOS
+that has a bug in its ACPI tables which cause
+[several issues](https://github.com/Bumblebee-Project/Bumblebee/issues/764)
+with bumblebee on this laptop. As of 2016 October 29, the bug has not been
+fixed in a BIOS update, so we have to use the work around provided by user 
+`Lekensteyn` in the previous link to change the OS reported to the BIOS
+by the Linux kernel.
+
+To do this, simply edit your `/etc/default/grub` configuration file using
+your favorite editor and `sudo`. In the
+`GRUB_CMDLINE_LINUX_DEFAULT` entry, add `acpi_osi=! acpi_osi=\"Windows 2009\""`
+so that the entry appears like this:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi=! acpi_osi=\"Windows 2009\""
+```
+
+After this, run `sudo update-grub`. After this I *think* bumblebee will function
+like normal; however, I am still using the same procedure as I posted for
+[bumblebee on the P34w v5 for Ubuntu 15.10]({% post_url 2016-03-09-optimusbumblebee-on-the-gigabyte-p34w-v5 %})
+as it gives me a little more control over when the daemon is running.
+Happy gaming!
