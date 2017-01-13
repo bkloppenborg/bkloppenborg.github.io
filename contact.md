@@ -8,8 +8,9 @@ group: navigation
 My current contact information is as follows:
 
 Brian Kloppenborg<br/>
-Array Fire<br/>
-3405 Piedmondt Ave, Suite 100<br/>
-Atlanta, GA 30305
+Georgia Tech Research Institute<br/>
+Office 5-221<br/>
+7220 Richardson Road</br>
+Smyrna, Ga 30080
 
-Email: brian@arrayfire.com
+Email: brian@kloppenborg.net
