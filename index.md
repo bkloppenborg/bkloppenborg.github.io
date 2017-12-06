@@ -14,11 +14,11 @@ tagline:
 **Hi I am Brian Kloppenborg. I am an astrophysicist with a knack for everything
 technological.**
 
-Right now I develop massively parallel software, write grant applications,
-perform technical marketing, and a myriad of administrative duties in my
-Research Scientist position at [ArrayFire](http://arrayfire.com).
+I am Research Faculty at Georgia Tech Research Institute and founder of
+[Pratum Labs, LLC](http://pratumlabs.com) a data science and machine learning
+company.
 
-I conduct astrophysical research as part of my adjunct
+In my spare time I conduct astrophysical research as part of my adjunct
 professor position in [Georgia State University's](http://gsu.edu)
 [Department of Physics and Astronomy](http://phy-astr.gsu.edu/).
 Most of my research focuses on resolved observations of stellar surfaces,
