@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Astrophysicist & Software Developer
+title: Astrophysicist and Entrepreneur
 tagline:
 ---
 {% include JB/setup %}
