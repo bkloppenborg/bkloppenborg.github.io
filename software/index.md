@@ -2,7 +2,6 @@
 layout: page
 title: "My software"
 description: "A selection of software I have written."
-group: navigation
 ---
 {% include JB/setup %}
 

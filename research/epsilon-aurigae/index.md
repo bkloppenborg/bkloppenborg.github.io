@@ -2,7 +2,6 @@
 layout: page
 title: "Epsilon Aurigae"
 description: ""
-group: sub-navigation
 ---
 {% include JB/setup %}
 

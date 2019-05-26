@@ -2,7 +2,6 @@
 layout: page
 title: "Publications"
 description: "A list of my publications / presentations"
-group: navigation
 ---
 {% include JB/setup %}
 
