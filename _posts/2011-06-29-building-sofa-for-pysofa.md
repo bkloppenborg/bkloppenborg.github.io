@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Building the Standards of Fundamental Astronomy (SOFA) library for pysofa"
 date: 2011-06-29T00:34:06-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ["SOFA"]
-categories : ["astronomy"]
+tags: ["SOFA"]
+categories: ["astronomy"]
 ---
 {% include JB/setup %}
 

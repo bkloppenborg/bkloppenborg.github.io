@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Django: Serving Media Files During Development Process"
 date: 2009-09-06T14:35:19-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ['django']
-categories : ['web development']
+tags: ['django']
+categories: ['web development']
 ---
 {% include JB/setup %}
 

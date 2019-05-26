@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "SpectraCyber Control Software "
 date: 2009-09-27T16:08:50-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ['spectracyber"]
-categories : ["astronomy"]
+tags: ['spectracyber']
+categories: ["astronomy"]
 ---
 {% include JB/setup %}
 

@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Control Software for the SSP-4 Photometer"
 date: 2009-09-03T18:22:12-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ['ssp-4']
-categories : ['astronomy', 'software']
+tags: ['ssp-4']
+categories: ['astronomy', 'software']
 ---
 {% include JB/setup %}
 

@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Debugging DLLs"
 date: 2009-03-23T21:48:29-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ["tools", "DLLs"]
-categories : ["debugging"]
+tags: ["tools", "DLLs"]
+categories: ["debugging"]
 ---
 {% include JB/setup %}
 

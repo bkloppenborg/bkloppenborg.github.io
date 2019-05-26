@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Django and dynamic site-wide navigation menus"
 date: 2009-08-24T12:00:03-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ['django', 'navigation']
-categories : ['web development']
+tags: ['django', 'navigation']
+categories: ['web development']
 ---
 {% include JB/setup %}
 

@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "Building a Site with Django"
 date: 2009-08-22T13:13:13-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags : ["django"]
-categories : ["web development"]
+tags: ["django"]
+categories: ["web development"]
 ---
 {% include JB/setup %}
 
