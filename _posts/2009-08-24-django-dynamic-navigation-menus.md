@@ -28,10 +28,13 @@ template for my HTML pages called "base.html":
 Just like with server-side-includes, you can include your navigation menu by an
 include directive:
 
+{% raw %}
     {% include 'navigation/base.html' %}
+{% endraw %}
 
 Whereas the navigation template (navigation/base.html) looks like this:
 
+{% raw %}
     <ul>
     {% if nav_menu %} {% for entry in nav_menu %}
       <li><a href="#">LinkText</a></li>
@@ -39,6 +42,7 @@ Whereas the navigation template (navigation/base.html) looks like this:
       <li>No Navigation Menu</li>
     {% endif %} 
     </ul>
+{% endraw %}
 
 I've actually copied the Django templates into a directory called 'templates'
 and then updated `TEMPLATE_DIRS` in the `settings.py` file accordingly. The problem

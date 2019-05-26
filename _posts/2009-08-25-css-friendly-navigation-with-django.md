@@ -36,6 +36,7 @@ class. Just like the `unordered_list` function, `navigation_list` takes an array
 output from MenuItems objects. Now we write a template that uses the new
 `navigation_list` filter:
 
+{% raw %}
     <div id="navmenu">
     	<ul>
     		<li>Navigation</li>
@@ -48,6 +49,7 @@ output from MenuItems objects. Now we write a template that uses the new
     		<li>nbsp;</li>
     	</ul>
     </div>
+{% endraw %}
 
 With the template and filter written, now all that needs to be done is to create
 the navigation module. The ideal method of storing the navigation menu would be
