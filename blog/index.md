@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Recent blog posts
-header: Recent blog posts
+title: Blog posts
 ---
 {% include JB/setup %}
+
+<p>List by <a href="categories.html">Categories</a> | <a href="categories.html">Tags</a></p>
 
 <ul class="posts">
   {% for post in site.posts %}

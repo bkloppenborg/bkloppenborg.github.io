@@ -9,7 +9,7 @@ system released under the [MIT](http://opensource.org/licenses/MIT) license.
 ### Start the server locally:
 
 ```
-jekyll serve
+jekyll serve --incremental
 ```
 
 ### Create a (blog) post:
