@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A lack of opportunity pitted against tenacious curosity"
-date: 2019-06-01T07:04:39-07:00
+date: 2019-06-06T07:04:39-07:00
 draft: false
 author: "Brian Kloppenborg"
 tags: ["life"]
