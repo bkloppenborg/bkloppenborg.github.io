@@ -4,8 +4,8 @@ title: "Hastings Wireless: A Retrospective"
 date: 2019-05-27T00:00:01-07:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["failures"]
 categories: ["hastings-wireless", "failures", "old-content"]
+tags: ["failures", "hastings-wireless"]
 ---
 
 In 2002 a friend and I attempted to start a wireless Internet service provider,

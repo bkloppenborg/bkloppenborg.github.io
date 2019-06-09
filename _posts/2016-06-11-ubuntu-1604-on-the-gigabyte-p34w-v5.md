@@ -2,8 +2,8 @@
 layout: post
 title: "Ubuntu 16.04 on the Gigabyte P34w v5"
 description: ""
-category: 
-tags: []
+category: ["linux", "installation"]
+tags: ["ubuntu", "Gigabyte p34w"]
 ---
 {% include JB/setup %}
 

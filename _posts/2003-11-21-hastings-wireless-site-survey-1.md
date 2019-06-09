@@ -4,8 +4,8 @@ title: "Hastings Wireless: Site Survey 1"
 date: 2003-11-21-T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["wifi-survey"]
 categories: ["hastings-wireless", "old-content"]
+tags: ["wifi-survey"]
 ---
 
 Using nothing more then a DWL-900AP, a 300 Watt power inverter and a old 120 Mhz

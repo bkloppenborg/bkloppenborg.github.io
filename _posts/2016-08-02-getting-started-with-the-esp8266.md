@@ -2,7 +2,7 @@
 layout: post
 title: "Getting started with the esp8266 (ESP-12e)"
 description: ""
-category: microcontrollers
+category: ["microcontrollers"]
 tags: [esp8266, esp-12e]
 ---
 {% include JB/setup %}

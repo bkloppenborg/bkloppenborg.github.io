@@ -2,8 +2,8 @@
 layout: post
 title: "5x USB 2.0 ports on the WRTSL54GS"
 description: "Modifying the WRTSL54GS to support 5x USB 2.0 ports"
-category: hardware
-tags: [WRTSL54GS, OpenWRT, Hardware modding]
+category: ["hardware", "modding"]
+tags: ["WRTSL54GS", "OpenWRT"]
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,8 @@
 layout: post
 title: "The end of graduate school"
 description: "Reflection on the last few days of graduate school."
-category: life
-tags: [graduate school, university of denver]
+category: ["life"]
+tags: ["graduate-school", "denver-university"]
 ---
 {% include JB/setup %}
 

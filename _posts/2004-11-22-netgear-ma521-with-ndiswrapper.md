@@ -4,8 +4,8 @@ title: "Configuring the Netgear MA521 with ndiswrapper in Linux"
 date: 2004-11-12T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["ndiswrapper"]
-categories: ["linux", "wifi"]
+categories: ["hardware"]
+tags: ["ndiswrapper", "MA521"]
 ---
 
 Although the slew of Linux commands in the following section might seem like 

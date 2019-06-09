@@ -4,8 +4,8 @@ title: "Hastings Wireless: Backbone Connection Line of Sight"
 date: 2003-06-01T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["line-of-site-analysis"]
 categories: ["hastings-wireless", "old-content"]
+tags: ["line-of-site-analysis"]
 ---
 
 There are three waves of data analysis for this step. The first was a LOS (Line

@@ -2,8 +2,8 @@
 layout: post
 title: "Installing Ubuntu 15.10 with bcache support."
 description: ""
-category:
-tags: []
+category: ["linux", "bcache"]
+tags: ["ubuntu", "bcache", "Gigabyte p34w"]
 ---
 {% include JB/setup %}
 

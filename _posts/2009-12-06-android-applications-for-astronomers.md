@@ -4,8 +4,8 @@ title: "Andriod Applications for Astronomers"
 date: 2009-12-06T20:37:13-00:00
 draft: false
 author: "Brian Kloppenborg"
+categories: ["astronomy", "software"]
 tags: ["android"]
-categories: ["astronomy"]
 ---
 {% include JB/setup %}
 

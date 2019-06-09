@@ -4,8 +4,8 @@ title: "Hastings Wireless: Antennas and Access Points"
 date: 2003-12-15T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["failures", "Linksys BEFW11S4", "DWL-900AP+"]
-categories: ["hastings-wireless", "failures", "old-content"]
+categories: ["old-content", "hastings-wireless", "failures"]
+tags: ["failures", "BEFW11S4", "DWL-900AP+"]
 ---
 
 In order to establish long-distance links and provide WiFi to large areas,

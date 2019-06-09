@@ -2,8 +2,8 @@
 layout: post
 title: "Installing Ubuntu 17.10 with bcache support."
 description: ""
-category:
-tags: [bcache]
+category: ["ubuntu", "installation"]
+tags: ["bcache", "ubuntu"]
 ---
 {% include JB/setup %}
 

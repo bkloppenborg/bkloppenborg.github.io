@@ -4,8 +4,8 @@ title: "Hastings Wireless: Site Survey Objectives"
 date: 2003-10-01-27T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: []
 categories: ["hastings-wireless", "old-content"]
+tags: ["hastings-wireless"]
 ---
 
 It is now our new objective to determine if there are any networks within

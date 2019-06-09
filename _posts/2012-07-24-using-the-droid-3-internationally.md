@@ -2,8 +2,8 @@
 layout: post
 title: "Using the Droid 3 internationally."
 description: "Instructions on how to configure the Droid 3 for use on non-US SIM networks."
-category: hardware
-tags: [Droid3, international travel]
+category: ["hardware"]
+tags: ["Droid3", "travel"]
 ---
 {% include JB/setup %}
 

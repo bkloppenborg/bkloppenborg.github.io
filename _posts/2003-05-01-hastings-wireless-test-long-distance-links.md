@@ -4,8 +4,8 @@ title: "Hastings Wireless: Testing Long-Distance Links"
 date: 2003-05-01T00:00:01-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["networking", "wifi"]
 categories: ["hastings-wireless", "old-content"]
+tags: ["networking", "wifi"]
 ---
 
 The first objective of Hastings Wireless will be to test the fesability of

@@ -4,8 +4,8 @@ title: "Six years evaluating backup software"
 date: 2019-06-08T14:05:00-07:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["backups", "deja-dup", "crashplan", "bacula", "urbackup", "duplicity", "duplicati", "borg-backup", "restic"]
 categories: ["backups"]
+tags: ["deja-dup", "crashplan", "bacula", "urbackup", "duplicity", "duplicati", "borg-backup", "restic"]
 ---
 
 Over the last six years I've tried out a variety of synchronization, mirroring,

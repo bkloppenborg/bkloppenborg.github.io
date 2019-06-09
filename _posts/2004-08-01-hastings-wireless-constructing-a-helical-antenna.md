@@ -5,7 +5,7 @@ date: 2004-08-01T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
 tags: ["antennas"]
-categories: ["hastings-wireless", "antennas", "DIY"]
+categories: ["hastings-wireless", "antennas"]
 ---
 
 ## Basic Information

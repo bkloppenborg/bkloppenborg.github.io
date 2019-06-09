@@ -4,8 +4,8 @@ title: "Building the Standards of Fundamental Astronomy (SOFA) library for pysof
 date: 2011-06-29T00:34:06-00:00
 draft: false
 author: "Brian Kloppenborg"
+categories: ["astronomy", "software"]
 tags: ["SOFA"]
-categories: ["astronomy"]
 ---
 {% include JB/setup %}
 

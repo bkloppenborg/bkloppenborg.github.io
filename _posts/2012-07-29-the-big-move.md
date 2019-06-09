@@ -2,8 +2,8 @@
 layout: post
 title: "The big move"
 description: "In 2012 July my wife and I moved to Germany. This post explains the adventure we had just getting from the US to our new home."
-category: life
-tags: [Germany, moving, MPIfR, travel, international travel]
+category: ["life"]
+tags: ["Germany", "MPIfR", "travel"]
 ---
 {% include JB/setup %}
 

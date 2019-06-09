@@ -2,8 +2,8 @@
 layout: post
 title: "High capacity patio drip irrigation system"
 description: ""
-category: gardening
-tags: [drip irrigation, gardening]
+category: ["gardening", "hardware"]
+tags: ["irrigation"]
 ---
 {% include JB/setup %}
 

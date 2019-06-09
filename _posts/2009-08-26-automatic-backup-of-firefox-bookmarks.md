@@ -4,8 +4,8 @@ title: "Automatically Backing Up Firefox Bookmarks"
 date: 2009-08-26T12:00:55-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["firefox", "backups"]
 categories: ["backups"]
+tags: ["firefox"]
 ---
 {% include JB/setup %}
 

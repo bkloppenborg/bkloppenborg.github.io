@@ -4,8 +4,8 @@ title: "Hastings Wireless: Building a 24 dBi omni-directional antenna"
 date: 2004-03-15T00:00:01-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["antennas", "omni-antenna"]
 categories: ["hastings-wireless", "old-content"]
+tags: ["antennas"]
 ---
 
 Over the weekend we constructed a 24 dBi omni-directional antenna for 2.4 GHz

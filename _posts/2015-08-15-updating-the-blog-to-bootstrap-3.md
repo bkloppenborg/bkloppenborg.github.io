@@ -2,8 +2,8 @@
 layout: post
 title: "Updating the blog to Bootstrap 3"
 description: ""
-category: software
-tags: [jekyll, bootstrap 3, blog]
+category: ["jekyll"]
+tags: ["jekyll", "bootstrap-3"]
 ---
 {% include JB/setup %}
 

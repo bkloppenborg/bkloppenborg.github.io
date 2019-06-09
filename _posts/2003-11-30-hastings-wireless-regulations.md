@@ -4,8 +4,8 @@ title: "Hastings Wireless: Zoning, FAA, and FCC Regulations"
 date: 2003-11-30T00:00:00-06:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ["regulations"]
 categories: ["hastings-wireless", "failures", "old-content"]
+tags: ["regulations"]
 ---
 
 ## Introduction

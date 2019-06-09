@@ -2,8 +2,8 @@
 layout: post
 title: "Optimus on the Gigabyte p34w v5 under Ubuntu 15.10"
 description: ""
-category:
-tags: []
+category: ["linux", "installation"]
+tags: ["ubuntu", "Gigabyte p34w"]
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Ubuntu 13.04 on the HP Envy 6/6T"
 description: ""
-category: linux
-tags: [Ubuntu, HP Envy 6, HP Envy 6T, Ubuntu 13.04, BCM4313]
+category: ["linux"]
+tags: ["ubuntu," "HP Envy 6T", "BCM4313"]
 ---
 {% include JB/setup %}
 

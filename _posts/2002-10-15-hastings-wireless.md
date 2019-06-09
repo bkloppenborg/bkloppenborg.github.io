@@ -4,8 +4,8 @@ title: "Hastings Wireless: An Introduction"
 date: 2002-10-15T00:00:00-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags: []
-categories: ["hastings-wireless", "startup"]
+categories: ["hastings-wireless", "startups"]
+tags: ["retrospective"]
 ---
 
 ## Introduction

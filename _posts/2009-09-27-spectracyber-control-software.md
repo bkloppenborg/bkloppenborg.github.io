@@ -4,8 +4,8 @@ title: "SpectraCyber Control Software "
 date: 2009-09-27T16:08:50-00:00
 draft: false
 author: "Brian Kloppenborg"
-tags: ['spectracyber']
-categories: ["astronomy"]
+categories: ["software", "astronomy"]
+tags: ["spectracyber"]
 ---
 {% include JB/setup %}
 
