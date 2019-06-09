@@ -195,16 +195,22 @@ filled in the gaps. Remote Potato doesn't provide a web interface, but its apps
 for Windows, iOS, Android, and Windows Phone provide full access to all of the
 media on your WMC server.
 
-<div width="100%">
-  <img width="24%" alt="Default home screen"
-    src="/images/blog/media-center-software-2017/wmc-startup.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Program guide with episode information"
-    src="/images/blog/media-center-software-2017/wmc-guide.png"
-    class="img-responsive img-thumbnail"> 
-  <img width="24%" alt="Episode information screen"
-    src="/images/blog/media-center-software-2017/wmc-recording-info.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/wmc-startup.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Default home screen"
+      src="/images/blog/media-center-software-2017/wmc-startup.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/wmc-guide.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Program guide with episode information"
+      src="/images/blog/media-center-software-2017/wmc-guide.png">
+  </a> 
+  <a href="/images/blog/media-center-software-2017/wmc-recording-info.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Episode information screen"
+      src="/images/blog/media-center-software-2017/wmc-recording-info.png">
+  </a>
 </div>
 
 ### DVBLogic's DVBLink
@@ -231,28 +237,42 @@ HDHomeRun to function. DVBLink can extract EPG data from transmitted EIT data,
 or use one of several external schedule sources. All DVBLink software comes with
 trial periods so it can be evaluated risk-free.
 
-<div width="100%">
-  <img width="24%" alt="DVBLink Package Manager" 
-    src="/images/blog/media-center-software-2017/dvblink-package-center-epg.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Package Manager" 
-    src="/images/blog/media-center-software-2017/dvblink-package-center-signal.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink TV Source Dialog" 
-    src="/images/blog/media-center-software-2017/dvblink-tv-sources.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Channel Editor" 
-    src="/images/blog/media-center-software-2017/dvblink-channel-editor.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Channel Scanning Dialog" 
-    src="/images/blog/media-center-software-2017/dvblink-tv-scan.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink EPG Info Scanner" 
-    src="/images/blog/media-center-software-2017/dvblink-epg-scanner.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Setup Guide" 
-    src="/images/blog/media-center-software-2017/dvblink-setup-guide-message.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/dvblink-package-center-epg.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Package Manager" 
+      src="/images/blog/media-center-software-2017/dvblink-package-center-epg.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-package-center-signal.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Package Manager" 
+      src="/images/blog/media-center-software-2017/dvblink-package-center-signal.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-tv-sources.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink TV Source Dialog" 
+      src="/images/blog/media-center-software-2017/dvblink-tv-sources.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-channel-editor.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Channel Editor" 
+      src="/images/blog/media-center-software-2017/dvblink-channel-editor.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-tv-scan.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Channel Scanning Dialog" 
+      src="/images/blog/media-center-software-2017/dvblink-tv-scan.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-epg-scanner.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink EPG Info Scanner" 
+      src="/images/blog/media-center-software-2017/dvblink-epg-scanner.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-setup-guide-message.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Setup Guide" 
+      src="/images/blog/media-center-software-2017/dvblink-setup-guide-message.png">
+  </a>
 </div>
 
 Once the necessary software is installed one can access the sources tab where
@@ -267,22 +287,32 @@ that the screenshots below captured schedule data from the OTA source, rather
 than SchedulesDirect. Thus the content is somewhat more sparse than the other
 applications shown.
 
-<div width="100%">
-  <img width="24%" alt="DVBLink EPG Overview" 
-    src="/images/blog/media-center-software-2017/dvblink-tv-guide.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Episode Information" 
-    src="/images/blog/media-center-software-2017/dvblink-tv-guide-info.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Web Interface" 
-    src="/images/blog/media-center-software-2017/dvblink-web-interface.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Web Settings Dialog" 
-    src="/images/blog/media-center-software-2017/dvblink-web-interface-settings.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="DVBLink Web Message Dialog" 
-    src="/images/blog/media-center-software-2017/dvblink-web-interface-message.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/dvblink-tv-guide.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink EPG Overview" 
+      src="/images/blog/media-center-software-2017/dvblink-tv-guide.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-tv-guide-info.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Episode Information" 
+      src="/images/blog/media-center-software-2017/dvblink-tv-guide-info.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-web-interface.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Web Interface" 
+      src="/images/blog/media-center-software-2017/dvblink-web-interface.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-web-interface-settings.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Web Settings Dialog" 
+      src="/images/blog/media-center-software-2017/dvblink-web-interface-settings.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/dvblink-web-interface-message.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="DVBLink Web Message Dialog" 
+      src="/images/blog/media-center-software-2017/dvblink-web-interface-message.png">
+  </a>
 </div>
 
 As shown above, DVBLink also includes a web interface that runs on port 8100. It
@@ -316,19 +346,27 @@ scan for channels, and map services. Much other TV tuner packages, TVHeadEnd can
 accept guide data from online sources or scrape it from broadcast EIT data.
 Screenshots of the installation and configuration procedure are shown below:
 
-<div width="100%">
-  <img width="24%" alt="TVHeadEnd Setup Dialog" 
-    src="/images/blog/media-center-software-2017/tvheadend-setup.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Network Tuner Setup" 
-    src="/images/blog/media-center-software-2017/tvheadend-setup-network-tuner.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Channel Scanner" 
-    src="/images/blog/media-center-software-2017/tvheadend-setup-scan.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Service Mapper" 
-    src="/images/blog/media-center-software-2017/tvheadend-setup-map-service.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/tvheadend-setup.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Setup Dialog" 
+      src="/images/blog/media-center-software-2017/tvheadend-setup.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-setup-network-tuner.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Network Tuner Setup" 
+      src="/images/blog/media-center-software-2017/tvheadend-setup-network-tuner.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-setup-scan.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Channel Scanner" 
+      src="/images/blog/media-center-software-2017/tvheadend-setup-scan.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-setup-map-service.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Service Mapper" 
+      src="/images/blog/media-center-software-2017/tvheadend-setup-map-service.png">
+  </a>
 </div>
 
 Once the software is configured, the user is returned to the EPG tab which is,
@@ -343,32 +381,44 @@ the user interface lets you check on the state of a recording, download the (raw
 transport, `.ts`) video file, or delete the recording. Representative
 screenshots of these steps are shown below:
 
-<div width="100%">
-  <img width="24%" alt="TVHeadEnd EPG Display" 
-    src="/images/blog/media-center-software-2017/tvheadend-epg.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Recording Status" 
-    src="/images/blog/media-center-software-2017/tvheadend-finished-recordings.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Recording Profiles" 
-    src="/images/blog/media-center-software-2017/tvheadend-recording-profiles.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Schedule Recording Dialog" 
-    src="/images/blog/media-center-software-2017/tvheadend-schedule-recording.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/tvheadend-epg.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd EPG Display" 
+      src="/images/blog/media-center-software-2017/tvheadend-epg.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-finished-recordings.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Recording Status" 
+      src="/images/blog/media-center-software-2017/tvheadend-finished-recordings.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-recording-profiles.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Recording Profiles" 
+      src="/images/blog/media-center-software-2017/tvheadend-recording-profiles.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-schedule-recording.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Schedule Recording Dialog" 
+      src="/images/blog/media-center-software-2017/tvheadend-schedule-recording.png">
+  </a>
 </div>
 
 TVHeadEnd also supports live-streaming TV to a web browser. In the screenshots
 below we show (i) channel selection dialog and (j) method of choosing the
 transcoding technique.
 
-<div width="100%">
-  <img width="24%" alt="TVHeadEnd LiveTV Player" 
-    src="/images/blog/media-center-software-2017/tvheadend-livetv-channel-selector.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="TVHeadEnd Transcoding Options" 
-    src="/images/blog/media-center-software-2017/tvheadend-livetv-transcoding.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/tvheadend-livetv-channel-selector.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd LiveTV Player" 
+      src="/images/blog/media-center-software-2017/tvheadend-livetv-channel-selector.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/tvheadend-livetv-transcoding.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="TVHeadEnd Transcoding Options" 
+      src="/images/blog/media-center-software-2017/tvheadend-livetv-transcoding.png">
+  </a>
 </div>
 
 By default TVHeadEnd will record raw (uncompressed) MPEG-2 transport streams
@@ -417,25 +467,37 @@ sources, and input connection setup steps at a minimum. During the input
 connection stage, the user will also need to run a channel scan for each input
 source. Representative images of these steps are shown below:
 
-<div width="100%">
-  <img width="24%" alt="MythTV Setup Screen" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-screen.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV input dialog" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-input.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV capture card setup" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-card-selection.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV video-source setup" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-video-source.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV channel scanning" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-scan.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV channel scan results" 
-    src="/images/blog/media-center-software-2017/mythtv-setup-scan-results.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-screen.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV Setup Screen" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-screen.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-input.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV input dialog" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-input.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-card-selection.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV capture card setup" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-card-selection.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-video-source.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV video-source setup" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-video-source.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-scan.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV channel scanning" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-scan.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-setup-scan-results.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV channel scan results" 
+      src="/images/blog/media-center-software-2017/mythtv-setup-scan-results.png">
+  </a>
 </div>
 
 While starting the frontend service, we encountered several issues that we
@@ -452,19 +514,27 @@ simply needs to select the program and choose one of the presented recording
 options. The TV viewing experience is fairly standard compared with most
 modern set-top-boxes.
 
-<div width="100%">
-  <img width="24%" alt="MythTV main screen" 
-    src="/images/blog/media-center-software-2017/mythtv-frontend.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV EPG screen" 
-    src="/images/blog/media-center-software-2017/mythtv-frontend-guide.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV detailed episode information" 
-    src="/images/blog/media-center-software-2017/mythtv-frontend-record.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV live video playback with overlay" 
-    src="/images/blog/media-center-software-2017/mythtv-frontend-tv.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/mythtv-frontend.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV main screen" 
+      src="/images/blog/media-center-software-2017/mythtv-frontend.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-frontend-guide.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV EPG screen" 
+      src="/images/blog/media-center-software-2017/mythtv-frontend-guide.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-frontend-record.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV detailed episode information" 
+      src="/images/blog/media-center-software-2017/mythtv-frontend-record.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-frontend-tv.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV live video playback with overlay" 
+      src="/images/blog/media-center-software-2017/mythtv-frontend-tv.png">
+  </a>
 </div>
 
 In addition to Myth Fronend, MythTV also features two web interfaces. The first
@@ -479,19 +549,27 @@ we show the program status window, TV guide, recording dialog, and current
 recording windows. Unfortunately, the current version does not support
 streaming, but it appears to be planned.
 
-<div width="100%">
-  <img width="24%" alt="MythTV WebFrontend home page" 
-    src="/images/blog/media-center-software-2017/mythtv-webfrontend.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV WebFrontend EPG dialog" 
-    src="/images/blog/media-center-software-2017/mythtv-webfrontend-guide.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV recording dialog" 
-    src="/images/blog/media-center-software-2017/mythtv-webfronted-record.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="MythTV recorded shows library" 
-    src="/images/blog/media-center-software-2017/mythtv-webfrontend-library.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/mythtv-webfrontend.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV WebFrontend home page" 
+      src="/images/blog/media-center-software-2017/mythtv-webfrontend.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-webfrontend-guide.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV WebFrontend EPG dialog" 
+      src="/images/blog/media-center-software-2017/mythtv-webfrontend-guide.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-webfronted-record.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV recording dialog" 
+      src="/images/blog/media-center-software-2017/mythtv-webfronted-record.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/mythtv-webfrontend-library.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="MythTV recorded shows library" 
+      src="/images/blog/media-center-software-2017/mythtv-webfrontend-library.png">
+  </a>
 </div>
 
 In addition to providing a nice interface, WebFrontend also provides an API and
@@ -556,31 +634,47 @@ recommended plugin installation dialog), the TV guide, and recording
 dialog. The live TV and playback dialog (not show) are similar to other software
 packages listed here, except the user interface appears on the top.
 
-<div width="100%">
-  <img width="24%" alt="SageTV server manager" 
-    src="/images/blog/media-center-software-2017/sage-client.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV source wizard" 
-    src="/images/blog/media-center-software-2017/sage-source-wizard.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV channel setup" 
-    src="/images/blog/media-center-software-2017/sage-channel-scanner.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV channel scan" 
-    src="/images/blog/media-center-software-2017/sage-channel-scan.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV EPG wizard" 
-    src="/images/blog/media-center-software-2017/sage-epg-wizard.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV main screen" 
-    src="/images/blog/media-center-software-2017/sage-gui.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV program guide" 
-    src="/images/blog/media-center-software-2017/sage-epg.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="SageTV detailed program information" 
-    src="/images/blog/media-center-software-2017/sage-recorder-ui.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/sage-client.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV server manager" 
+      src="/images/blog/media-center-software-2017/sage-client.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-source-wizard.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV source wizard" 
+      src="/images/blog/media-center-software-2017/sage-source-wizard.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-channel-scanner.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV channel setup" 
+      src="/images/blog/media-center-software-2017/sage-channel-scanner.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-channel-scan.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV channel scan" 
+      src="/images/blog/media-center-software-2017/sage-channel-scan.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-epg-wizard.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV EPG wizard" 
+      src="/images/blog/media-center-software-2017/sage-epg-wizard.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-gui.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV main screen" 
+      src="/images/blog/media-center-software-2017/sage-gui.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-epg.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV program guide" 
+      src="/images/blog/media-center-software-2017/sage-epg.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/sage-recorder-ui.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="SageTV detailed program information" 
+      src="/images/blog/media-center-software-2017/sage-recorder-ui.png">
+  </a>
 </div>
 
 ### TVTime
@@ -655,31 +749,47 @@ TV-based content, Emby also supports additional media content types like Movies,
 Music, Books, Games, Photos, and other mixed content. Due to time limitations,
 we did not evaluate these other features.
 
-<div width="100%">
-  <img width="24%" alt="Emby server management console" 
-    src="/images/blog/media-center-software-2017/emby-setup.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby TV tuner dialog for the HDHomeRun" 
-    src="/images/blog/media-center-software-2017/emby-hdhomerun.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby main screen displaying live TV and movies" 
-    src="/images/blog/media-center-software-2017/emby-frontend.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby EPG screen" 
-    src="/images/blog/media-center-software-2017/emby-guide.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby channel dialog" 
-    src="/images/blog/media-center-software-2017/emby-channels.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby recording dialog" 
-    src="/images/blog/media-center-software-2017/emby-recordings.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby series view" 
-    src="/images/blog/media-center-software-2017/emby-series-view.png"
-    class="img-responsive img-thumbnail">
-  <img width="24%" alt="Emby suggested episodes based upon viewing history" 
-    src="/images/blog/media-center-software-2017/emby-suggestions.png"
-    class="img-responsive img-thumbnail">
+<div   width="100%">
+  <a href="/images/blog/media-center-software-2017/emby-setup.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby server management console" 
+      src="/images/blog/media-center-software-2017/emby-setup.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-hdhomerun.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby TV tuner dialog for the HDHomeRun" 
+      src="/images/blog/media-center-software-2017/emby-hdhomerun.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-frontend.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby main screen displaying live TV and movies" 
+      src="/images/blog/media-center-software-2017/emby-frontend.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-guide.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby EPG screen" 
+      src="/images/blog/media-center-software-2017/emby-guide.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-channels.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby channel dialog" 
+      src="/images/blog/media-center-software-2017/emby-channels.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-recordings.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby recording dialog" 
+      src="/images/blog/media-center-software-2017/emby-recordings.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-series-view.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby series view" 
+      src="/images/blog/media-center-software-2017/emby-series-view.png">
+  </a>
+  <a href="/images/blog/media-center-software-2017/emby-suggestions.png">
+    <img width="24%" class="img-responsive img-thumbnail"
+      alt="Emby suggested episodes based upon viewing history" 
+      src="/images/blog/media-center-software-2017/emby-suggestions.png">
+  </a>
 </div>
 
 Using the Docker installation method mentioned above, our experience with Emby
