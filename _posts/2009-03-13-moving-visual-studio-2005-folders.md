@@ -4,7 +4,7 @@ title: "Moving Visual Studio 2005 Default Directories"
 date: 2009-03-13T13:03:41-00:00
 draft: false
 author: "Brian Kloppenborg"
-categories: ['backups']
+categories: ['backups', "old-content"]
 tags: ['visual studio', 'windows']
 ---
 {% include JB/setup %}

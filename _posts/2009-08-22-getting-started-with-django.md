@@ -5,7 +5,7 @@ date: 2009-08-22T13:13:13-00:00
 draft: false
 author: "Brian Kloppenborg"
 tags: ["django"]
-categories: ["web-development"]
+categories: ["web-development", "old-content"]
 ---
 {% include JB/setup %}
 

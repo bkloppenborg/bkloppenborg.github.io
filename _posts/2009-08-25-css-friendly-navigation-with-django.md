@@ -4,7 +4,7 @@ title: "Django: CSS-Friendly Dynamic Navigation Menus"
 date: 2009-08-25T12:00:49-00:00
 draft: false
 author: "Brian Kloppenborg"
-categories: ['web-development']
+categories: ['web-development', "old-content"]
 tags: ['django', 'navigation']
 ---
 {% include JB/setup %}

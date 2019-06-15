@@ -2,7 +2,7 @@
 layout: post
 title: "Using the OnAir HDTV Creator on Ubuntu 8.10"
 description: "How to setup and use the OnAir HDTV creator on Ubuntu Linux 8.10"
-category: ["hardware"]
+category: ["hardware", "old-content"]
 tags: ["ubuntu", "onair creator", "autumnwave", "hdtv"]
 ---
 {% include JB/setup %}
