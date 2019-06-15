@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up a dedicated restic backup server"
+title: "Setup and configuration of a dedicated restic backup server"
 date: 2019-06-12T14:05:00-07:00
 draft: false
 author: "Brian Kloppenborg"

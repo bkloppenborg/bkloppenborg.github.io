@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setup, configuration, and automation of restic on Linux clients"
+title: "Setup, configuration, and automation of restic for Linux clients"
 date: 2019-06-15T20:57:00-07:00
 draft: false
 author: "Brian Kloppenborg"
