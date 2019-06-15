@@ -14,7 +14,7 @@ In my first post, I discuss how I decided to use restic rather than other backup
 clients after 
 [evaluating various backup solutions]({% post_url 2019-06-08-six-years-evaluating-backup-software %})
 over the last six years. In the 
-[second post]({% post_url 2019-06-12-rest-backup-server %}),
+[second post]({% post_url 2019-06-12-restic-backup-server %}),
 I setup a dedicated backup server with a `btrfs` RAID1 filesystem, automate
 `btrfs` scrubbing using systemd timers, install `restic`, and install the restic
 REST server.
