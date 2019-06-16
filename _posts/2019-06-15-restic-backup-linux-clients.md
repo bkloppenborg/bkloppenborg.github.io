@@ -43,7 +43,9 @@ environmental variables that are used by restic during the backup process.
 I store these files in the `~/local/restic` directory; however, you can
 place them where ever convenient.
 
-Create a `~/local/restic/restic-env.sh` with the following content:
+Create a `~/local/restic/restic-env.sh` with tNEXT                         LEFT     LAST                         PASSED     UNIT                ACTIVATES
+Mon 2019-06-17 00:00:00 MDT  13h left Mon 2019-06-10 00:00:40 MDT  6 days ago restic-weekly.timer restic-weekly.service
+he following content:
 
     REST_USER="rest_username"
     REST_PASS="some_awesome_password"
@@ -163,20 +165,32 @@ Next create a `restic-weekly.timer` file with the following contents:
      
     [Install]
     WantedBy=timers.target
+    
+Check the files for correctness using:
 
-Copy files to the `~/.config/systemd/user/` directory and enable them
+    systemd-analyze --user verify restic-weekly.service
+    systemd-analyze --user verify restic-weekly.timer
+    
+This should return without error (note that Ubuntu 18.04 ships with `systemd` 237
+which will always return a "Attempted to remove disk file system, and we can't allow that.")
+
+Copy files to the `~/.config/systemd/user/` directory, enable, and start
+the timer
 
     mkdir -p ~/.config/systemd/user/
     cp restic-weekly.* ~/.config/systemd/user/
     systemctl --user enable restic-weekly.timer
+    systemctl --user start restic-weekly.timer
     
-Test that the service works by starting the job using `systemctl`:
+Ensure that the timer will be scheduled using `systemctl`:
 
-    systemctl --user start restic-weekly@.service
+    systemctl --user list-timers --all
+    NEXT                         LEFT     LAST                         PASSED     UNIT                ACTIVATES
+    Mon 2019-06-17 00:00:00 MDT  13h left Mon 2019-06-10 00:00:40 MDT  6 days ago restic-weekly.timer restic-weekly.service
 
-and check the status of the backup using `systemctl` as well:
+To check the status of the backup in the future, use `systemctl` as well:
 
-    systemctl --user status restic-weekly@.service
+    systemctl --user status restic-weekly.service
 
 ## Automation using systemd user-mode timers/services (system)
 
@@ -212,23 +226,36 @@ Next the timer: save as `restic-weekly@.timer`
      
     [Install]
     WantedBy=timers.target
+    
+Check the files for correctness using:
 
-Copy the timer to the `/etc/systemd/system/` directory and enable the timer
-on a specific location:
-
-    sudo cp restic-weekly* /etc/systemd/system/
-    sudo chmod 644 /etc/systemd/system/restic-weekly*
-    sudo systemctl enable restic-weekly@mnt-storage.timer
+    systemd-analyze verify restic-weekly@mnt-storage.service
+    systemd-analyze verify restic-weekly@mnt-storage.timer
     
 Notice the `mnt-storage` entry on the last line. Systemd will interpret this
 as an argument to the `restic-weekly@.service` file. In this case, the 
 `mnt-storage` argument will be converted to `/mnt/storage` automatically
 and provided to the `ExecStart` line.
 
-Now, test configuration by manually starting the job:
+If the above step went ok, copy the timer to the `/etc/systemd/system/`
+directory, enable, and start the timer:
 
-    sudo systemctl start restic-weekly@mnt-storage.service
-    
-And check its status using `journalctl`
+    sudo cp restic-weekly* /etc/systemd/system/
+    sudo chmod 644 /etc/systemd/system/restic-weekly*
+    sudo systemctl enable restic-weekly@mnt-storage.timer
+    sudo systemctl start restic-weekly@mnt-storage.timer
 
+Now, verify that the timer is operational/scheduled:
+
+    sudo systemctl list-timers --all
+    NEXT                         LEFT                LAST                         PASSED             UNIT                            ACTIVATES
+    Sun 2019-06-16 17:39:02 UTC  58s left            n/a                          n/a                systemd-tmpfiles-clean.timer    systemd-tmpfiles-clean.service
+    Sun 2019-06-16 18:03:06 UTC  25min left          Sun 2019-06-16 17:01:18 UTC  36min ago          anacron.timer                   anacron.service
+    Mon 2019-06-17 00:00:00 UTC  6h left             Mon 2019-06-10 00:00:19 UTC  6 days ago         fstrim.timer                    fstrim.service
+    Mon 2019-06-17 00:00:00 UTC  6h left             Sun 2019-06-16 17:18:57 UTC  19min ago          restic-weekly@mnt-storage.timer restic-weekly@mnt-storage.service
+    ...
+   
+In the future you can check the status of the service using either of these commands:
+
+    sudo systemctl status restic-weekly@mnt-storage.timer
     journalctl --unit restic-weekly@mnt-storage

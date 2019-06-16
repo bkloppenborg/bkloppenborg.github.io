@@ -147,21 +147,23 @@ the results. Safe the following as `btrfs-scrub@.service`
     Nice=19
     IOSchedulingClass=idle
     ExecStart=/bin/btrfs scrub start -Bd %f 2>&1
+    
+Check the validity of the systemd files using
 
-Next we copy and enable the timer and service as follows:
+    sudo systemd-analyze verify btrfs-scrub@mnt-backup.service
+    sudo systemd-analyze verify btrfs-scrub@mnt-backup.timer
+    
+Note that the `mnt-backup` text in the in the `systemctl` commands is
+treated as an argument to the systemd service. This argument undergoes string
+substitution such that `mnt-backup` is interpreted as `/mnt/backup`
+
+Next we copy, enable, and start the timer and service as follows:
 
     sudo cp btrfs-scrub* /etc/systemd/system/
     sudo chmod 644 /etc/systemd/system/btrfs-scrub*
     sudo systemctl enable btrfs-scrub@mnt-backup.timer
+    sudo systemctl start btrfs-scrub@mnt-backup.timer
     
-Note that the `mnt-backup` text in the in the `systemctl enable` command is
-treated as an argument to the systemd service. This argument undergoes string
-substitution such that `mnt-backup` is interpreted as `/mnt/backup`
-
-Next, ensure everything is setup correctly by executing the scrub manually:
-
-    sudo systemctl start btrfs-scrub@mnt-backup.service
-
 After the script has executed (automatically) for the first time, check the status
 with `sudo btrfs scrub status /mnt/backup` or
 
