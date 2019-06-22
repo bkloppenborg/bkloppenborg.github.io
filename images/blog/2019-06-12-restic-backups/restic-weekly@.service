@@ -1,0 +1,9 @@
+[Unit]
+Description=Restic Backup
+ 
+[Service]
+Type=simple
+Nice=19
+IOSchedulingClass=2
+IOSchedulingPriority=7
+ExecStart=%f/restic/restic-backup.sh

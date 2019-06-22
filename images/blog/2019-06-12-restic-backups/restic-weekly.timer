@@ -1,0 +1,10 @@
+[Unit]
+Description=Restic User Backup Timer
+ 
+[Timer]
+WakeSystem=false
+OnCalendar=weekly
+Persistent=true
+ 
+[Install]
+WantedBy=timers.target
