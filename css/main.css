@@ -15,8 +15,8 @@ figure {
 }
 
 figure img {
-    display: block;
-    width: 100%;
+	vertical-align: top;
+  display: inline;
 }
 
 figcaption {

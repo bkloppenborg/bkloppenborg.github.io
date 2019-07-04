@@ -31,8 +31,8 @@ to our Nebraskan ties and resumed our trek to Denver.
 
 <div style="float: left; width: 200px">
     <figure>
-    <img src="/images/blog/2012-07-08_12-31-01_449.jpg"
-        class="thumbnail" style="margin: 3px" width="200px"/>
+    <img src="/images/blog/2012-07-08_12-31-01_449.jpg" width="100%"
+        class="thumbnail"/>
     <figcaption>"The two of us smiling as we had finally boarded the plane
         bound for Washington, DC."</figcaption>
     </figure>
@@ -50,8 +50,8 @@ Of course, our plane was 45 minutes late arriving (mechanical issue), and then
 
 <div style="float: right; width: 200px; margin: 10px">
     <figure>
-    <img src="/images/blog/2012-07-09_08-12-59_184.jpg"
-        class="thumbnail" style="margin: 3px" width="200px"/>
+    <img src="/images/blog/2012-07-09_08-12-59_184.jpg" width="100%"
+        class="thumbnail"/>
     <figcaption>A great lunch at the Munich airport.  Now if we could only
         figure out what the gray-colored veggie was...
     </figcaption>
