@@ -8,10 +8,10 @@ tags: ["bcache", "ubuntu"]
 {% include JB/setup %}
 
 This post is a continuation of my `bcache` installation instruction series that
-began three years ago with 
+began six years ago with 
 [Ubuntu 14.04]({% post_url 2014-10-26-installing-ubuntu-1410-with-a-ssd-bcache %})
 This edition includes instructions for setting up `bcache` on Ubuntu 20.04.
-Unfortunately, six years after `bcache` was added to Ubuntu, Cannonical has yet
+Unfortunately, even after all of this time, Cannonical has yet
 to include built-in support for `bcache` in the initial `initramfs`. Thus the
 instructions here remain largely unchanged from my prior posts, save one change
 to restore the `resolv.conf` file prior to restarting the machine.
