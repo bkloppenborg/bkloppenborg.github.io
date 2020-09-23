@@ -14,9 +14,8 @@ tagline:
 **Hi I am Brian Kloppenborg. I am an astrophysicist with a knack for everything
 technological.**
 
-I am Research Faculty at Georgia Tech Research Institute and founder of
-[Pratum Labs, LLC](http://pratumlabs.com) a data science and machine learning
-company.
+I am a Research Faculty member at Georgia Tech Research Institute and startup
+founder.
 
 In my spare time I conduct astrophysical research as part of my adjunct
 professor position in [Georgia State University's](http://gsu.edu)
