@@ -43,9 +43,7 @@ environmental variables that are used by restic during the backup process.
 I store these files in the `~/local/restic` directory; however, you can
 place them where ever convenient.
 
-Create a `~/local/restic/restic-env.sh` with tNEXT                         LEFT     LAST                         PASSED     UNIT                ACTIVATES
-Mon 2019-06-17 00:00:00 MDT  13h left Mon 2019-06-10 00:00:40 MDT  6 days ago restic-weekly.timer restic-weekly.service
-he following content:
+Create a `~/local/restic/restic-env.sh` with the following content:
 
     REST_USER="rest_username"
     REST_PASS="some_awesome_password"
